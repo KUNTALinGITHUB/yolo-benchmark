@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo_benchmark"
+version = "0.1.0"
+description = "YOLO model benchmarking tool with GUI, FPS, CPU usage and CSV export"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Kuntal Pal", email = "kuntal.pal7550@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "ultralytics",
+    "opencv-python",
+    "pandas",
+    "numpy",
+    "psutil"
+]
+
+[project.urls]
+Homepage = "https://github.com/KUNTALinGITHUB/yolo-benchmark"
