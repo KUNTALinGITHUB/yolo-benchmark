@@ -11,4 +11,4 @@ Compare multiple YOLO models easily with GUI and performance metrics.
 
 ## Installation
 ```bash
-pip install yolo_benchmark
+pip install yolo-benchmark
